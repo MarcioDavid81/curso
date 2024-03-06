@@ -1,0 +1,24 @@
+@charset "utf-8";
+body{background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;}
+/* tudo o que é id em HTML, em CSS vira # (rashtag) id só pode 1 item por nome.
+    tudo o que é class em HTML, em CSS vira . (ponto) class pode repetir.*/
+    h1{color: rgb(4, 109, 0);
+
+    }
+    h2{color: rgb(51, 77, 49);
+
+    }
+    h1#principal{color: rgb(255, 255, 255); text-align: center; background-color: rgb(4, 109, 0);}
+
+    .basico{color: red;
+
+    }
+
+    .intermediario{color: yellowgreen;
+
+    }
+
+    .avançado{color: green;
+
+    }

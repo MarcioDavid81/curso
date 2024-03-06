@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*SELETORES PERSONALIZADOS*/
+        /*  # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = filho        
+        */
+        body{font-family: Arial, Helvetica, sans-serif;}
+        a{color: red; text-decoration: none; font-weight: bold;}
+        a:visited{color: darkred;}
+        a:hover{text-decoration: underline; color: black; transition: all 1s;}
+        a:active{color: greenyellow;}
+        .especial::before{content: '⇒ ';}
+        .especial::after{content: ' ⇐'}
+        .especial{background-color: rgb(255, 98, 98); color: white;}
+        .sublinhado-gradiente{
+            background-image: linear-gradient( red,rgb(255, 255, 255));
+            background-repeat: no-repeat;
+            background-size: 0% 3px;
+            background-position: left bottom;
+            transition: background-size 1500ms ease;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 900;
+        }
+        .sublinhado-gradiente:hover{
+            background-size: 26% 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="sublinhado-gradiente">Personalizando LINKS</h1>
+    <ul>
+        <li><a href="https://github.com/MarcioDavid81" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.facebook.com/marcio.david.754" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/o_marciodavid/" target="_blank" class="especial">Instagran</a></li>
+    </ul>
+</body>
+</html>
