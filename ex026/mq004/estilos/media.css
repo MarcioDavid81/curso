@@ -27,9 +27,9 @@ TV: acima de 1200px
     img#print{display: block;}
     img#pc{display: none;}
     img#tv{display: none;}
-    
+
     main::after{
-        content: 'Essa impressão foi feita através do site www.marciodavid81.github.io/curso/ex0026/mq004/index.html';
+        content: 'Essa impressão foi feita através do site www.marciodavid81.github.io/curso/ex026/mq004/index.html';
     }
 }
 
