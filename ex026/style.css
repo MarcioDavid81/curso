@@ -38,10 +38,12 @@ li:hover{
 .search-txt{
     height: 30px;
     width: 200px;
+    margin-left: 50px;
 }
 .search-btn{
     text-decoration: none;
     color: white;
+    margin-left: 10px;
 }
 main{
     flex: 1 1 0;
