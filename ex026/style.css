@@ -10,12 +10,19 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: blueviolet;
+    background-image: linear-gradient(72deg, purple, violet, white);
 }
 header menu ul{
     display: flex;
     flex-direction: row;
     background-color: purple;
+}
+header menu{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    padding: 10px;
+    align-items: center;
 }
 li{
     list-style-type: none;
@@ -28,12 +35,20 @@ li:hover{
     color: black;
     cursor: pointer;
 }
+.search-txt{
+    height: 30px;
+    width: 200px;
+}
+.search-btn{
+    text-decoration: none;
+    color: white;
+}
 main{
     flex: 1 1 0;
     position: relative;
     width: 600px;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-image: linear-gradient(270deg, lightgreen, aquamarine, white);
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
@@ -54,4 +69,5 @@ footer{
     background-color: purple;
     color: white;
     text-align: center;
+    font-size: 12px;
 }
